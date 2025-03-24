@@ -10,7 +10,10 @@ class Console_friend:
             return "Хорошо!"
         return "Ответ на сообщение"
 
-    def fileread(self, filename):
+    # Метод, записывающий сообщение пользователя и ответ приложения в текстовый файл
+    # Параметр filename - название файла, куда записываются данные
+    # return - результат работы метода
+    def fileread(self, filename):#todo доделать реализацию
         if filename=="":
             return "Ошибка! Такого файла нет!"
         return "Записано в файл"
