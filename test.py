@@ -11,6 +11,8 @@ class Console_friend:
         return "Ответ на сообщение"
 
     def fileread(self, filename):
+        if filename=="":
+            return "Ошибка! Такого файла нет!"
         return "Записано в файл"
 
 
