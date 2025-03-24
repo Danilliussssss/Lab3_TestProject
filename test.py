@@ -10,6 +10,9 @@ class Console_friend:
             return "Хорошо!"
         return "Ответ на сообщение"
 
+    def fileread(self, filename):
+        return "Записано в файл"
+
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
