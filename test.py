@@ -23,7 +23,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual("Хорошо!",friend_obj.answer_on_message("Скажи, как у тебя дела?"),"Совпадение")
     def test_fileread(self):
         friend_obj = Console_friend()
-        self.assertEqual("Записано в файл",friend_obj.fileread("Text.txt"))
+        self.assertEqual("Ошибка! Такого файла нет!",friend_obj.fileread(""))
 
 
 
